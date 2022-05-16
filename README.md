@@ -6,6 +6,9 @@ cd frontend
 ### 3. Start the project
 `npm start`
 
+<br>
+<br>
+
 # Run Backend
 ### 1. Go to backend folder
 `cd backend` 
@@ -13,6 +16,9 @@ cd frontend
 `npm i`
 ### 3. Start the Project (On a different terminal)
 `npm start`
+
+<br>
+<br>
 
 # Tasks
 
@@ -30,7 +36,10 @@ cd frontend
     - type (comma joined string)
 ### 4. Connect the MainPage component with the SearchBar so you can send data to backend
 ### 5. In frontend, make a component that maps the backend response to a Pokemon Card. And show construct one card for each element received
+### 6. At the first load of the page, load the card for Pikachu https://pokeapi.co/api/v2/pokemon/pikachu in frontend
 
+<br>
+<br>
 
 ## Append 1
 ### Poke Api responses
