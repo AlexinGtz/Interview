@@ -18,8 +18,8 @@ provider:
 
 functions:
   myFunction:
-    name: My-Function
-    description: 'Your Lambda'
+    name: Pokemon-Info
+    description: 'function to get pokemon info'
     handler: src/getPokemons/index.handler
     timeout: 30
     memorySize: 512
