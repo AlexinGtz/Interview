@@ -24,7 +24,8 @@ cd frontend
     - defense (number)
     - speed (number)
     - type (comma joined string)
-### 4. In frontend, make a component that maps this response to a Pokemon Card. And show construct one card for each element received
+### 4. Connect the MainPage component with the SearchBar so you can send data to backend
+### 5. In frontend, make a component that maps the backend response to a Pokemon Card. And show construct one card for each element received
 
 
 ## Append 1

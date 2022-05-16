@@ -1,10 +1,10 @@
 import React from 'react'
-import { MainSearch } from '../../components/MainSearch/MainSearch'
+import { MainPage } from '../../components/MainPage/MainPage'
 
 export const Home = () => {
   return (
     <div>
-        <MainSearch />
+        <MainPage />
     </div>
   )
 }
