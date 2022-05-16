@@ -1,6 +1,7 @@
 service: poke-app
 
 plugins: 
+  - serverless-plugin-typescript
   - serverless-offline
 
 package: 

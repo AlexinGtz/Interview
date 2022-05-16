@@ -1,6 +1,6 @@
-exports.handler = async (event) => {
+export const handler = async (event) => {
     const data = null;
-
+    
     return {
         headers: {
             'Content-Type': 'application/json',
