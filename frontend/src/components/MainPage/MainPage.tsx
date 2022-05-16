@@ -6,6 +6,8 @@ import { SearchBar } from '../SearchBar/SearchBar';
 
 export const MainPage = () => {
 
+    /* Connect with Search bar */
+
     const searchInAPI = async () => {
         const data = null; // Complete Data to Send
         const items = (await axios.post('http://localhost:3001/dev/getPokemons', data)).data;
