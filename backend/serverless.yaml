@@ -1,0 +1,29 @@
+service: poke-app
+
+plugins: 
+  - serverless-offline
+
+package: 
+  individually: true
+  exclude: ./*
+
+provider: 
+  name: aws
+  runtime: nodejs12.x
+  region: ${opt:region, "us-east-2"}
+  stage: ${opt:stage, "dev"}
+  timeout: 30
+  profile: none
+
+functions:
+  myFunction:
+    name: My-Function
+    description: 'Your Lambda'
+    handler: src/getPokemons/index.handler
+    timeout: 30
+    memorySize: 512
+    events:
+      - http:
+         path: /getPokemons
+         method: post
+         cors: true
