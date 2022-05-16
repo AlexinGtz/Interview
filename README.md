@@ -1,13 +1,17 @@
 # Run Frontend
 ### 1. Go to frontend folder
 cd frontend
-### 2. Start the project
+### 2. Install dependencies
+`npm i`
+### 3. Start the project
 `npm start`
 
 # Run Backend
 ### 1. Go to backend folder
 `cd backend` 
-### 2. Start the Project (On a different terminal)
+### 2. Install dependencies
+`npm i`
+### 3. Start the Project (On a different terminal)
 `npm start`
 
 # Tasks
