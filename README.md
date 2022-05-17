@@ -22,8 +22,8 @@ cd frontend
 
 # Tasks
 
-### 1. For the backend, create a handler that gets some pokemos data from https://pokeapi.co/api/v2/pokemon/{id or name}
-### 2. For each pokemon, return a response to frontend, with an pokemon mapped to the following data: (check [this](#append-1) for pokemon response details)
+### 1. For the backend, create a handler that gets some pokemon data from https://pokeapi.co/api/v2/pokemon/{id or name}
+### 2. For each pokemon, return a response to frontend, with that pokemon mapped to the following object: (check [this](#append-1) for pokemonAPI response details)
     - id (number)
     - name (string)
     - height (number)
@@ -32,9 +32,11 @@ cd frontend
     - attack (number)
     - defense (number)
     - speed (number)
-### 3. Connect the MainPage component with the SearchBar component so you have linked data between them (you can check what props does the SearchBar component needs in the SearchBar.types.ts file)
-### 4. In frontend, make a component that maps the backend response to a Pokemon Card. And show construct one card for each element received
-### 5. At the first load of the page, load the card for Pikachu https://pokeapi.co/api/v2/pokemon/pikachu in frontend
+### 3. In frontend, connect the MainPage component with the SearchBar component so you have linked data between them (you can check what props does the SearchBar component needs in the SearchBar.types.ts file)
+### 4. Make a component that maps the backend response to a Pokemon Card. To show all this information in a nice way. Try Centering the Card in the screen and styling it.
+### 5. At the first load of the page, load the card for Pikachu https://pokeapi.co/api/v2/pokemon/pikachu in frontend.
+
+### NOTES: Focus on Code Quality. It is OK if you don't end all the steps above.
 
 <br>
 <br>
