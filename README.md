@@ -24,6 +24,7 @@ cd frontend
 
 ### 1. For the backend, create a handler that gets some pokemon data from https://pokeapi.co/api/v2/pokemon/{id or name}
 ### 2. For each pokemon, return a response to frontend, with that pokemon mapped to the following object: (check [this](#append-1) for pokemonAPI response details)
+#### _You can find hp, attack, defense and speed in the "stats" object response from poke API_
     - id (number)
     - name (string)
     - height (number)
