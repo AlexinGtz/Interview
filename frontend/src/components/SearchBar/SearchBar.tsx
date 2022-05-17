@@ -7,15 +7,9 @@ export const SearchBar = (props: SearchBarProps) => {
         <div className='blankDiv'/>
             <div className='inputsDiv'>
                 <div>
-                    <label className='mainLabel'>Limit</label>
-                    <input className='mainInput' type='text' placeholder='Limit' value={props.limitValue} onChange={(event) => {
-                        props.limitHandler ? props.limitHandler(event.target.value) : console.log('No Limit handler Function provided');
-                    }} />
-                </div>
-                <div>
-                    <label className='mainLabel'>Offset</label>
-                    <input className='mainInput' type='text' placeholder='Offset' value={props.offsetValue} onChange={(event) => {
-                        props.offsetHandler ? props.offsetHandler(event.target.value) : console.log('No offset handler Function provided');
+                    <label className='mainLabel'>ID or Name</label>
+                    <input className='mainInput' type='text' placeholder='ID/Name' value={props.idValue} onChange={(event) => {
+                        props.idHandler ? props.idHandler(event.target.value) : console.log('No Limit handler Function provided');
                     }} />
                 </div>
             </div>

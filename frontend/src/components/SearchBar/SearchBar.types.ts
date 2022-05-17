@@ -1,7 +1,5 @@
 export type SearchBarProps = {
-    limitHandler?: Function,
-    offsetHandler?: Function,
+    idHandler?: Function,
     searchInAPI: Function,
-    limitValue?: string,
-    offsetValue?: string,
+    idValue?: string,
 }
