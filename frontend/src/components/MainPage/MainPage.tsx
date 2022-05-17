@@ -18,8 +18,8 @@ export const MainPage = () => {
     const searchInAPI = async () => {
         const data = null; // Figure out which data to send if it is not mock
         const receivedItem = isMock ? testData : await axios.post('http://localhost:3001/dev/getPokemons', data);
-        // Process received Items
-    } 
+        // Process received Items someway to send them to the Card Component
+    }
 
     return (
         <div className='mainDiv'>
